@@ -9,13 +9,13 @@ spec:
     namespace: automation
   project: default
   sources:
-    - repoURL: 'git@github.com:danswer-ai/danswer.git'
+    - repoURL: 'https://github.com/danswer-ai/danswer.git'
       targetRevision: HEAD
       helm:
         valueFiles:
           - $dans/values/danswer.yaml
       path: deployment/helm
-    - repoURL: 'git@github.com:sarahdoi/dans.git'
+    - repoURL: 'https://github.com/sarahdoi/dans.git'
       targetRevision: HEAD
       ref: dans
   syncPolicy:

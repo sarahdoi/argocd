@@ -9,12 +9,12 @@ spec:
     namespace: automation
   project: default
   sources:
-    - repoURL: 'git@github.com:otwld/ollama-helm.git'
+    - repoURL: 'https://github.com/otwld/ollama-helm.git'
       targetRevision: HEAD
       helm:
         valueFiles:
           - $dans/values/ollama.yaml
-    - repoURL: 'git@github.com:sarahdoi/dans.git'
+    - repoURL: 'https://github.com/sarahdoi/dans.git'
       targetRevision: HEAD
       ref: dans
   syncPolicy:

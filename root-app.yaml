@@ -13,8 +13,8 @@ spec:
     targetRevision: HEAD
     path: apps
   syncPolicy:
-    automated:
+    automated: 
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+      CreateNamespace: true

@@ -13,7 +13,7 @@ spec:
       targetRevision: HEAD
       helm:
         valueFiles:
-          - $dans/values/danswer.yaml
+          - $dans/values/danswer-values.yaml
       path: deployment/helm
     - repoURL: 'https://github.com/sarahdoi/dans.git'
       targetRevision: HEAD

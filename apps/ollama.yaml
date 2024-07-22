@@ -13,7 +13,7 @@ spec:
       targetRevision: HEAD
       helm:
         valueFiles:
-          - $dans/values/ollama.yaml
+          - $dans/values/ollama-values.yaml
     - repoURL: 'https://github.com/sarahdoi/dans.git'
       targetRevision: HEAD
       ref: dans
